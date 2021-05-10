@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+ /* div{
+  border: 1px blue solid;
+}  */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'Assistant', sans-serif;
+}
+
+
+video{
+  width: 100%;
+}
+
+.section{
+  padding: 50px 20px;
+}
+
+
+.width100{
+  width: 100%;
+}
+
+.height100{
+  height: 100vh;
+}
+
+.flex{
+  display: flex;
+  align-items: top;
+}
+
+form{
+display: flex;
+flex-direction: column;
+margin: 5px;
+
+}
+
+form input{
+  margin-bottom: 5px;
+}
+
+h3{
+display: block;
+  border-bottom: 3px solid #58B530;
+  width: 20vw;
+  text-align: center;
+}
+
+button{
+  width: 150px;
+  background-color: #C9A878;
+  color: antiquewhite;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: #58B530;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+@media screen and (max-width: 992px) {
+  video{
+    padding-top: 50px;
+  }
+}
+
+.footer{
+  background-color: #C9A878;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+
+     .footer{
+      clear: none;
+     }
+}
