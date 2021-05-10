@@ -1,5 +1,6 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
+import api from "../../API/api"
 
 function AddProduct() {
   const onSubmit = (e) => {
@@ -33,8 +34,8 @@ function AddProduct() {
   const test = async (data) => {
     try {
       console.log(data);
-      const req = await axios.post(
-        "http://localhost:5000/api/products",
+      const req = await api.post(
+        "products",
         data
       );
       console.log(req);

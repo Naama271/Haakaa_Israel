@@ -3,14 +3,14 @@ import axios from "axios";
 import whatsapp from "./icons/whatsapp.png";
 import phone from "./icons/phone.png";
 import "./dis.css";
-
+import api from "../../API/api"
 const Mashudata = ({ location }) => {
   const [display, setdisplay] = useState([]);
 
   useEffect(() => {
     const search = async () => {
-      const { data } = await axios.get(
-        "http://localhost:5000/api/distributors"
+      const { data } = await api.get(
+        "distributors"
       );
 
       const arr = data.filter((distributor) => {

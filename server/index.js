@@ -2,7 +2,9 @@ const express = require("express");
 require("./DB/mongoose");
 const app = express();
 app.use(express.json());
-
+const path = require("path"); //
+const publicDirectory = path.join(__dirname, "../client/build"); //
+app.use(express.static(publicDirectory)); //
 
 const dis_router = require("./ROUTES/distributors_endpoints");
 app.use(dis_router);

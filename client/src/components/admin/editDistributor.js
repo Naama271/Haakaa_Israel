@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+// import axios from "axios";
 // import "./dis.css";
-
+import api from "../../API/api"
 function EditDistributor() {
   const [display, setdisplay] = useState([]);
 
@@ -10,7 +10,7 @@ function EditDistributor() {
     console.log("delete")
     console.log(id)
     try {
-      const req = await axios.delete(`http://localhost:5000/api/delete/product/${id}`);
+      const req = await api.delete(`delete/product/${id}`);
       console.log(req);
     } catch (e) {
       console.log(e);
@@ -40,8 +40,8 @@ function EditDistributor() {
   const test = async (data) => {
     try {
       console.log(data);
-      const req = await axios.put(
-        `http://localhost:5000/api/distributor/id`,
+      const req = await api.put(
+        `distributor/id`,
         data
       );
       console.log(req);
@@ -52,8 +52,8 @@ function EditDistributor() {
 
   useEffect(() => {
     const search = async () => {
-      const { data } = await axios.get(
-        "http://localhost:5000/api/distributors"
+      const { data } = await api.get(
+        "distributors"
       );
 
       //   const arr = data.filter((distributor) => {
