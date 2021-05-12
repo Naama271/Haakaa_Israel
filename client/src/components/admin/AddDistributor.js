@@ -4,8 +4,6 @@ import api from "../../API/api"
 
 function AddDistributor() {
 
-
-
   const onSubmit = (e) => {
     e.preventDefault();
     const fullname = e.target.elements.fullname.value;

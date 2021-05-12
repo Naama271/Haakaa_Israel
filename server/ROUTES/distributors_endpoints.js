@@ -6,7 +6,7 @@ const router = express.Router();
 const cors = require('cors')
 router.use(cors())
 
-
+const { auth } = require("../middleware/auth");
 
 
 //getting all Distributor

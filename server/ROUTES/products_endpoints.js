@@ -1,6 +1,7 @@
 const Product = require("../MODELS/product");
 const express = require("express");
 const router = express.Router();
+const { auth } = require("../middleware/auth");
 
 // const app = express();
 const cors = require('cors')

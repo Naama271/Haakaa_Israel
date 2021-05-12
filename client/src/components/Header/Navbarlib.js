@@ -46,10 +46,8 @@ function Example() {
    <HashLink to='/#home'><img src={logoimage} className="logo" alt="Haakaa logo"/></HashLink>
     
       <ul>
-
         <li><HashLink to='/#about'>הסיפור שלנו</HashLink></li>
         <li><HashLink to="/#products">המוצרים שלנו</HashLink></li>
-
         <li><HashLink to="/#distributors">נקודות ההפצה</HashLink></li>
         <li><HashLink to="/#contact">יצירת קשר</HashLink></li>
       </ul>

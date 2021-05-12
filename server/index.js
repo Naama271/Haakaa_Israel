@@ -10,6 +10,8 @@ const dis_router = require("./ROUTES/distributors_endpoints");
 app.use(dis_router);
 const product_router = require("./ROUTES/products_endpoints");
 app.use(product_router);
+const admin_router = require("./ROUTES/admin_endpoints");
+app.use('/api/admin',admin_router);
 
 
 // const Distributor = require("./MODELS/distributor");
