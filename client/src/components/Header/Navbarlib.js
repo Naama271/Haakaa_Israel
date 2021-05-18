@@ -6,7 +6,7 @@ import React from "react";
 
 import logoimage from './images/Israelogo150.png'
 import { HashLink } from 'react-router-hash-link';
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter , Link} from 'react-router-dom';
 
 //<HashLink to="/#distributors"></HashLink>
 
@@ -41,17 +41,16 @@ function Example() {
     //   ]}
     // />
     
-    <BrowserRouter>
-   
+  <>
    <HashLink to='/#home'><img src={logoimage} className="logo" alt="Haakaa logo"/></HashLink>
     
       <ul>
-        <li><HashLink to='/#about'>הסיפור שלנו</HashLink></li>
-        <li><HashLink to="/#products">המוצרים שלנו</HashLink></li>
-        <li><HashLink to="/#distributors">נקודות ההפצה</HashLink></li>
-        <li><HashLink to="/#contact">יצירת קשר</HashLink></li>
+        <HashLink to='/#about'>הסיפור שלנו</HashLink>
+        <HashLink to="/#products">המוצרים שלנו</HashLink>
+        <HashLink to="/#distributors">נקודות ההפצה</HashLink>
+        <HashLink to="/#contact">יצירת קשר</HashLink>
       </ul>
-    </BrowserRouter>
+</>
     );
 
 };
