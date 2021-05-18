@@ -1,0 +1,129 @@
+2021-05-18T06:24:38.423919+00:00 heroku[router]: at=info method=GET path="/Israelogo150.png" host=haakaaisreal.herokuapp.com request_id=14ed0a2d-c486-4518-ac5b-c313d9e77ba0 fwd="46.117.12.155" dyno=web.1 connect=1ms service=4ms status=200 bytes=7859 protocol=https
+2021-05-18T06:24:38.763594+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=5c9eb03e-7126-4c2c-a0f8-2fc613011173 fwd="46.117.12.155" dyno=web.1 connect=0ms service=704ms status=206 bytes=32935370 protocol=https
+2021-05-18T06:25:25.068781+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=646057d6-a348-480d-8bd5-ce0689bb4225 fwd="46.117.12.155" dyno=web.1 connect=0ms service=633ms status=206 bytes=24808908 protocol=https
+2021-05-18T06:25:29.078140+00:00 heroku[router]: at=info method=GET path="/api/gi/distributors" host=haakaaisreal.herokuapp.com request_id=ac8704ac-c205-468d-9cd4-7977c4476f61 fwd="46.117.12.155" dyno=web.1 connect=11ms service=10ms status=404 bytes=434 protocol=https
+2021-05-18T06:25:32.646294+00:00 heroku[router]: at=info method=GET path="/api/gi/distributors" host=haakaaisreal.herokuapp.com request_id=ac0840af-771c-49cb-88a3-48851965749e fwd="46.117.12.155" dyno=web.1 connect=10ms service=11ms status=404 bytes=434 protocol=https
+2021-05-18T06:41:40.031429+00:00 heroku[router]: at=info method=GET path="/api/gi" host=haakaaisreal.herokuapp.com request_id=d4c12a0f-77bb-4584-8d5d-0094ee7d91eb fwd="54.226.180.243" dyno=web.1 connect=1ms service=3ms status=404 bytes=421 protocol=https
+2021-05-18T06:42:14.287236+00:00 heroku[router]: at=info method=GET path="/api/" host=haakaaisreal.herokuapp.com request_id=80e4ef9e-6692-4cad-9b78-a4cfa7d6118e fwd="3.236.21.30" dyno=web.1 connect=0ms service=12ms status=404 bytes=419 protocol=https
+2021-05-18T06:45:19.931514+00:00 heroku[router]: at=info method=GET path="/api/gi/distributors" host=haakaaisreal.herokuapp.com request_id=28b67c63-6986-4bdf-ba91-d6279b46877f fwd="46.117.12.155" dyno=web.1 connect=0ms service=3ms status=404 bytes=434 protocol=https
+2021-05-18T06:45:21.049977+00:00 heroku[router]: at=info method=GET path="/api/gi/distributors" host=haakaaisreal.herokuapp.com request_id=5f6b0725-548b-46c0-a638-e85fbb115229 fwd="46.117.12.155" dyno=web.1 connect=0ms service=4ms status=404 bytes=434 protocol=https
+2021-05-18T06:50:01.000000+00:00 app[api]: Build started by user naama271@gmail.com
+2021-05-18T06:52:41.257194+00:00 app[api]: Release v9 created by user naama271@gmail.com
+2021-05-18T06:52:42.359421+00:00 heroku[web.1]: Restarting
+2021-05-18T06:52:42.371497+00:00 heroku[web.1]: State changed from up to starting
+2021-05-18T06:52:41.257194+00:00 app[api]: Deploy e804c069 by user naama271@gmail.com
+2021-05-18T06:52:41.000000+00:00 app[api]: Build succeeded
+2021-05-18T06:52:43.358771+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-05-18T06:52:43.423722+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2021-05-18T06:52:43.490380+00:00 heroku[web.1]: Process exited with status 22
+2021-05-18T06:53:05.959208+00:00 heroku[web.1]: Starting process with command `npm start`
+2021-05-18T06:53:09.284755+00:00 app[web.1]: 
+2021-05-18T06:53:09.284766+00:00 app[web.1]: > haakaa_israel@1.0.0 start /app
+2021-05-18T06:53:09.284767+00:00 app[web.1]: > npm start --prefix server
+2021-05-18T06:53:09.284767+00:00 app[web.1]: 
+2021-05-18T06:53:10.059764+00:00 app[web.1]: 
+2021-05-18T06:53:10.059830+00:00 app[web.1]: > haakaaisrael@1.0.0 start /app/server
+2021-05-18T06:53:10.059832+00:00 app[web.1]: > npm i && node index.js
+2021-05-18T06:53:10.059834+00:00 app[web.1]: 
+2021-05-18T06:53:23.096121+00:00 app[web.1]: npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@2. I'll try to do my best with it!
+2021-05-18T06:53:23.097950+00:00 app[web.1]: npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@2. I'll try to do my best with it!
+2021-05-18T06:53:38.926439+00:00 app[web.1]: npm WARN haakaaisrael@1.0.0 No description
+2021-05-18T06:53:39.083021+00:00 app[web.1]: npm WARN haakaaisrael@1.0.0 No repository field.
+2021-05-18T06:53:39.107540+00:00 app[web.1]: 
+2021-05-18T06:53:39.107543+00:00 app[web.1]: moved 1 package and audited 941 packages in 28.08s
+2021-05-18T06:53:41.593681+00:00 app[web.1]: 
+2021-05-18T06:53:41.593694+00:00 app[web.1]: 27 packages are looking for funding
+2021-05-18T06:53:41.593695+00:00 app[web.1]:   run `npm fund` for details
+2021-05-18T06:53:41.593696+00:00 app[web.1]: 
+2021-05-18T06:53:41.595375+00:00 app[web.1]: found 3 vulnerabilities (2 moderate, 1 high)
+2021-05-18T06:53:41.595376+00:00 app[web.1]:   run `npm audit fix` to fix them, or `npm audit` for details
+2021-05-18T06:53:43.082237+00:00 app[web.1]: 41585
+2021-05-18T06:53:43.599372+00:00 heroku[web.1]: State changed from starting to up
+2021-05-18T06:53:44.188957+00:00 app[web.1]: MongoDB Connected…
+2021-05-18T06:53:46.166651+00:00 heroku[router]: at=info method=GET path="/" host=haakaaisreal.herokuapp.com request_id=af5aed8d-6e09-46be-892e-01e8c46ed76d fwd="46.117.12.155" dyno=web.1 connect=7ms service=24ms status=200 bytes=3386 protocol=https
+2021-05-18T06:53:46.284287+00:00 heroku[router]: at=info method=GET path="/static/css/2.27175f2b.chunk.css" host=haakaaisreal.herokuapp.com request_id=44a4feeb-d7b3-4c69-8e8f-f7ceff6e2709 fwd="46.117.12.155" dyno=web.1 connect=1ms service=8ms status=200 bytes=1069 protocol=https
+2021-05-18T06:53:46.296609+00:00 heroku[router]: at=info method=GET path="/static/js/main.f11d8481.chunk.js" host=haakaaisreal.herokuapp.com request_id=ae13b297-ea3a-45b2-8a68-369e3299d946 fwd="46.117.12.155" dyno=web.1 connect=6ms service=15ms status=200 bytes=41971 protocol=https
+2021-05-18T06:53:46.464095+00:00 heroku[router]: at=info method=GET path="/static/js/2.55dd8d88.chunk.js" host=haakaaisreal.herokuapp.com request_id=f22af63a-e96f-420b-9756-8ebdb5854bdd fwd="46.117.12.155" dyno=web.1 connect=1ms service=18ms status=200 bytes=243381 protocol=https
+2021-05-18T06:53:46.392094+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css" host=haakaaisreal.herokuapp.com request_id=1aade4a8-8dee-44f1-a10e-610413d66212 fwd="46.117.12.155" dyno=web.1 connect=1ms service=6ms status=200 bytes=2618 protocol=https
+2021-05-18T06:53:47.135241+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=cdcef660-5712-4db6-93fd-0edfde8e6043 fwd="46.117.12.155" dyno=web.1 connect=1ms service=132ms status=499 bytes= protocol=https
+2021-05-18T06:53:47.341310+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=406dc244-83fb-41f6-bce9-81dac34cfc80 fwd="46.117.12.155" dyno=web.1 connect=1ms service=208ms status=499 bytes= protocol=https
+2021-05-18T06:53:47.298663+00:00 heroku[router]: at=info method=GET path="/api/distributors" host=haakaaisreal.herokuapp.com request_id=a8eaa0b6-a5b3-429d-a93a-605ffafa92da fwd="46.117.12.155" dyno=web.1 connect=1ms service=289ms status=201 bytes=7139 protocol=https
+2021-05-18T06:53:47.409730+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=0cd41216-d492-4005-99b3-c07e14045db5 fwd="46.117.12.155" dyno=web.1 connect=1ms service=16ms status=206 bytes=101835 protocol=https
+2021-05-18T06:53:47.496764+00:00 heroku[router]: at=info method=GET path="/api/products" host=haakaaisreal.herokuapp.com request_id=f3a5e2ce-96ad-4255-9fa5-16c1d0746cd2 fwd="46.117.12.155" dyno=web.1 connect=6ms service=480ms status=201 bytes=15232 protocol=https
+2021-05-18T06:53:47.614306+00:00 heroku[router]: at=info method=GET path="/primarying%2012" host=haakaaisreal.herokuapp.com request_id=44e0df5d-a2b4-4d4c-81e6-e29f72ece28c fwd="46.117.12.155" dyno=web.1 connect=1ms service=15ms status=404 bytes=430 protocol=https
+2021-05-18T06:53:48.214806+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=haakaaisreal.herokuapp.com request_id=c5eb7766-ee73-4db9-92dd-e15d27de5c7d fwd="46.117.12.155" dyno=web.1 connect=6ms service=62ms status=200 bytes=793 protocol=https
+2021-05-18T06:53:48.329859+00:00 heroku[router]: at=info method=GET path="/Israelogo150.png" host=haakaaisreal.herokuapp.com request_id=f76f8333-8bf8-456b-96bd-aaec96b6a6dd fwd="46.117.12.155" dyno=web.1 connect=6ms service=10ms status=200 bytes=7859 protocol=https
+2021-05-18T06:53:48.641774+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=73c7b811-e254-4c1d-b1f9-701e89a3979a fwd="46.117.12.155" dyno=web.1 connect=1ms service=769ms status=206 bytes=32833877 protocol=https
+2021-05-18T06:54:35.212369+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=362f4151-79f4-4099-a1b1-f2c1c48f2ee4 fwd="46.117.12.155" dyno=web.1 connect=1ms service=14ms status=304 bytes=241 protocol=https
+2021-05-18T06:54:36.151678+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=6134aeae-9c8c-4573-a13e-bfe852866fbd fwd="46.117.12.155" dyno=web.1 connect=1ms service=844ms status=206 bytes=25677228 protocol=https
+2021-05-18T06:55:31.126925+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=0c3ddc69-a579-4b1e-98ce-99020fb44c69 fwd="46.117.12.155" dyno=web.1 connect=1ms service=7ms status=304 bytes=241 protocol=https
+2021-05-18T06:55:32.184028+00:00 heroku[router]: at=info method=GET path="/static/media/haakaa_brand.e6da74dd.mp4" host=haakaaisreal.herokuapp.com request_id=f8007014-f8ce-47dd-80e2-8cc116b8ee83 fwd="46.117.12.155" dyno=web.1 connect=0ms service=970ms status=206 bytes=24209715 protocol=https
+2021-05-18T06:55:52.012326+00:00 heroku[router]: at=info method=POST path="/api/admin/login" host=haakaaisreal.herokuapp.com request_id=28df5ca5-421e-450a-85f2-7684fd30302f fwd="46.117.12.155" dyno=web.1 connect=1ms service=196ms status=400 bytes=255 protocol=https
+2021-05-18T06:56:00.713072+00:00 heroku[router]: at=info method=POST path="/api/admin/login" host=haakaaisreal.herokuapp.com request_id=8d1fe242-6138-4ac8-944b-d8af98301e7b fwd="46.117.12.155" dyno=web.1 connect=1ms service=298ms status=200 bytes=478 protocol=https
+2021-05-18T06:56:00.908572+00:00 heroku[router]: at=info method=GET path="/api/distributors" host=haakaaisreal.herokuapp.com request_id=c3cf3a26-9196-4a4e-8e23-b536dde5862a fwd="46.117.12.155" dyno=web.1 connect=0ms service=97ms status=201 bytes=7139 protocol=https
+2021-05-18T06:59:08.914080+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=haakaaisreal.herokuapp.com request_id=65549b0c-0e54-4044-843e-d156a52ad9a0 fwd="46.117.12.155" dyno=web.1 connect=2ms service=5ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:08.912420+00:00 heroku[router]: at=info method=GET path="/static/css/2.27175f2b.chunk.css" host=haakaaisreal.herokuapp.com request_id=2da9cea7-7d73-433a-b392-eb167083f9a1 fwd="46.117.12.155" dyno=web.1 connect=1ms service=9ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:08.957989+00:00 heroku[router]: at=info method=GET path="/static/js/main.f11d8481.chunk.js.map" host=haakaaisreal.herokuapp.com request_id=e7e20259-daef-4168-98c0-cfae951a6e8c fwd="46.117.12.155" dyno=web.1 connect=0ms service=15ms status=200 bytes=57315 protocol=https
+2021-05-18T06:59:08.978635+00:00 heroku[router]: at=info method=GET path="/static/js/2.55dd8d88.chunk.js.map" host=haakaaisreal.herokuapp.com request_id=792cce89-b609-4e1b-a86e-d1d437289317 fwd="46.117.12.155" dyno=web.1 connect=1ms service=43ms status=200 bytes=811335 protocol=https
+2021-05-18T06:59:08.915574+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css" host=haakaaisreal.herokuapp.com request_id=02c33767-8cd2-4994-8eb4-11791cfc42f6 fwd="46.117.12.155" dyno=web.1 connect=1ms service=3ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:09.008238+00:00 heroku[router]: at=info method=GET path="/static/css/2.27175f2b.chunk.css.map" host=haakaaisreal.herokuapp.com request_id=3afd10cb-9c3a-45f4-a44d-689891d7f2d1 fwd="46.117.12.155" dyno=web.1 connect=0ms service=4ms status=200 bytes=1823 protocol=https
+2021-05-18T06:59:09.005601+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css.map" host=haakaaisreal.herokuapp.com request_id=8a2acdec-8db9-4c6d-b4d9-31e4eb30ddfd fwd="46.117.12.155" dyno=web.1 connect=0ms service=3ms status=200 bytes=8984 protocol=https
+2021-05-18T07:34:54.147512+00:00 heroku[web.1]: Idling
+2021-05-18T07:34:54.163604+00:00 heroku[web.1]: State changed from up to down
+2021-05-18T07:34:55.470793+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-05-18T07:34:55.701785+00:00 heroku[web.1]: Process exited with status 143
+Disconnected from log stream. There may be events happening that you do not see here! Attempting to reconnect...
+2021-05-18T06:59:08.914080+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=haakaaisreal.herokuapp.com request_id=65549b0c-0e54-4044-843e-d156a52ad9a0 fwd="46.117.12.155" dyno=web.1 connect=2ms service=5ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:08.915574+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css" host=haakaaisreal.herokuapp.com request_id=02c33767-8cd2-4994-8eb4-11791cfc42f6 fwd="46.117.12.155" dyno=web.1 connect=1ms service=3ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:08.957989+00:00 heroku[router]: at=info method=GET path="/static/js/main.f11d8481.chunk.js.map" host=haakaaisreal.herokuapp.com request_id=e7e20259-daef-4168-98c0-cfae951a6e8c fwd="46.117.12.155" dyno=web.1 connect=0ms service=15ms status=200 bytes=57315 protocol=https
+2021-05-18T06:59:08.978635+00:00 heroku[router]: at=info method=GET path="/static/js/2.55dd8d88.chunk.js.map" host=haakaaisreal.herokuapp.com request_id=792cce89-b609-4e1b-a86e-d1d437289317 fwd="46.117.12.155" dyno=web.1 connect=1ms service=43ms status=200 bytes=811335 protocol=https
+2021-05-18T06:59:09.005601+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css.map" host=haakaaisreal.herokuapp.com request_id=8a2acdec-8db9-4c6d-b4d9-31e4eb30ddfd fwd="46.117.12.155" dyno=web.1 connect=0ms service=3ms status=200 bytes=8984 protocol=https
+2021-05-18T06:59:09.008238+00:00 heroku[router]: at=info method=GET path="/static/css/2.27175f2b.chunk.css.map" host=haakaaisreal.herokuapp.com request_id=3afd10cb-9c3a-45f4-a44d-689891d7f2d1 fwd="46.117.12.155" dyno=web.1 connect=0ms service=4ms status=200 bytes=1823 protocol=https
+2021-05-18T07:34:54.147512+00:00 heroku[web.1]: Idling
+2021-05-18T07:34:54.163604+00:00 heroku[web.1]: State changed from up to down
+2021-05-18T07:34:55.470793+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-05-18T07:34:55.701785+00:00 heroku[web.1]: Process exited with status 143
+Disconnected from log stream. There may be events happening that you do not see here! Attempting to reconnect...
+2021-05-18T06:59:08.914080+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=haakaaisreal.herokuapp.com request_id=65549b0c-0e54-4044-843e-d156a52ad9a0 fwd="46.117.12.155" dyno=web.1 connect=2ms service=5ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:08.915574+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css" host=haakaaisreal.herokuapp.com request_id=02c33767-8cd2-4994-8eb4-11791cfc42f6 fwd="46.117.12.155" dyno=web.1 connect=1ms service=3ms status=304 bytes=237 protocol=https
+2021-05-18T06:59:08.957989+00:00 heroku[router]: at=info method=GET path="/static/js/main.f11d8481.chunk.js.map" host=haakaaisreal.herokuapp.com request_id=e7e20259-daef-4168-98c0-cfae951a6e8c fwd="46.117.12.155" dyno=web.1 connect=0ms service=15ms status=200 bytes=57315 protocol=https
+2021-05-18T06:59:08.978635+00:00 heroku[router]: at=info method=GET path="/static/js/2.55dd8d88.chunk.js.map" host=haakaaisreal.herokuapp.com request_id=792cce89-b609-4e1b-a86e-d1d437289317 fwd="46.117.12.155" dyno=web.1 connect=1ms service=43ms status=200 bytes=811335 protocol=https
+2021-05-18T06:59:09.005601+00:00 heroku[router]: at=info method=GET path="/static/css/main.88337fbc.chunk.css.map" host=haakaaisreal.herokuapp.com request_id=8a2acdec-8db9-4c6d-b4d9-31e4eb30ddfd fwd="46.117.12.155" dyno=web.1 connect=0ms service=3ms status=200 bytes=8984 protocol=https
+2021-05-18T06:59:09.008238+00:00 heroku[router]: at=info method=GET path="/static/css/2.27175f2b.chunk.css.map" host=haakaaisreal.herokuapp.com request_id=3afd10cb-9c3a-45f4-a44d-689891d7f2d1 fwd="46.117.12.155" dyno=web.1 connect=0ms service=4ms status=200 bytes=1823 protocol=https
+2021-05-18T07:34:54.147512+00:00 heroku[web.1]: Idling
+2021-05-18T07:34:54.163604+00:00 heroku[web.1]: State changed from up to down
+2021-05-18T07:34:55.470793+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-05-18T07:34:55.701785+00:00 heroku[web.1]: Process exited with status 143
+2021-05-18T08:59:05.027638+00:00 heroku[web.1]: Unidling
+2021-05-18T08:59:05.061189+00:00 heroku[web.1]: State changed from down to starting
+2021-05-18T08:59:22.820795+00:00 heroku[web.1]: Starting process with command `npm start`
+2021-05-18T08:59:27.902173+00:00 app[web.1]: 
+2021-05-18T08:59:27.902203+00:00 app[web.1]: > haakaa_israel@1.0.0 start /app
+2021-05-18T08:59:27.902204+00:00 app[web.1]: > npm start --prefix server
+2021-05-18T08:59:27.902204+00:00 app[web.1]: 
+2021-05-18T08:59:28.435763+00:00 app[web.1]: 
+2021-05-18T08:59:28.435785+00:00 app[web.1]: > haakaaisrael@1.0.0 start /app/server
+2021-05-18T08:59:28.435786+00:00 app[web.1]: > npm i && node index.js
+2021-05-18T08:59:28.435787+00:00 app[web.1]: 
+2021-05-18T08:59:35.112509+00:00 app[web.1]: npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@2. I'll try to do my best with it!
+2021-05-18T08:59:35.113770+00:00 app[web.1]: npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@2. I'll try to do my best with it!
+2021-05-18T08:59:45.039634+00:00 app[web.1]: npm WARN haakaaisrael@1.0.0 No description
+2021-05-18T08:59:45.055523+00:00 app[web.1]: npm WARN haakaaisrael@1.0.0 No repository field.
+2021-05-18T08:59:45.056516+00:00 app[web.1]: 
+2021-05-18T08:59:45.058891+00:00 app[web.1]: moved 1 package and audited 941 packages in 15.644s
+2021-05-18T08:59:46.393763+00:00 app[web.1]: 
+2021-05-18T08:59:46.393784+00:00 app[web.1]: 27 packages are looking for funding
+2021-05-18T08:59:46.393785+00:00 app[web.1]:   run `npm fund` for details
+2021-05-18T08:59:46.393786+00:00 app[web.1]: 
+2021-05-18T08:59:46.395419+00:00 app[web.1]: found 3 vulnerabilities (2 moderate, 1 high)
+2021-05-18T08:59:46.395420+00:00 app[web.1]:   run `npm audit fix` to fix them, or `npm audit` for details
+2021-05-18T08:59:47.887312+00:00 app[web.1]: 48645
+2021-05-18T08:59:48.723411+00:00 app[web.1]: MongoDB Connected…
+2021-05-18T09:00:20.264618+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=f11199b4-327d-479b-81e6-55b41016d9c2 fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https
+2021-05-18T09:00:34.352200+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=fd15f35a-026f-45e4-ae87-c7b0e6994381 fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https
+2021-05-18T09:00:43.524472+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=ea2467b4-1602-45d4-91d1-751b96ef7b67 fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https
+2021-05-18T09:01:16.412348+00:00 heroku[web.1]: State changed from starting to down
+2021-05-18T09:01:44.057248+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=9a4204e6-834f-499b-bcb3-faa02d8037f7 fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https
+2021-05-18T09:02:44.847573+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=eb5b6ad2-1eb5-4160-a3cd-4f335ecea872 fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https
+2021-05-18T09:03:34.812776+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=00662e34-6f96-4acc-8b79-48d6dc394c25 fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https
+2021-05-18T09:04:34.782915+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=haakaaisreal.herokuapp.com request_id=92bb1b13-ce40-4f6a-96ab-1a70a0f68eac fwd="46.117.12.155" dyno= connect= service= status=503 bytes= protocol=https

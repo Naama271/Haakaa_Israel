@@ -9,10 +9,10 @@ import Footer from "./components/Footer";
 import { Helmet } from "react-helmet";
 import NotFound from "./components/NotFound";
 import Product from "./components/Products/Product";
-import { BrowserRouter, Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/admin/Login";
-import admin from "./components/admin/Admin";
+// import admin from "./components/admin/Admin";
 
 function App() {
   return (

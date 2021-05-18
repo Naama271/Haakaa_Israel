@@ -43,8 +43,9 @@ margin: 5px;
 
 }
 
-form input{
+form input, textarea#message{
   margin-bottom: 5px;
+  border: 1px solid #C9A878;
 }
 
 h3{
@@ -86,6 +87,10 @@ button:hover{
   padding: 20px;
   text-align: center;
   clear: both;
+}
+
+.footer a{
+  margin: 5px;
 }
 
 @media screen and (max-width: 600px) {
