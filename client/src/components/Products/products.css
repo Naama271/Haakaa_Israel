@@ -40,28 +40,36 @@ a{
     text-decoration: none;
 }
 
+.carousel *{
+    direction:ltr;
+}
+
+
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .width30, .width70 {
      width: 100%;
     }
-    .right , .left{
+    /* .right , .left{
         float: none;
-    }
-    .product_page{
+    } */
+    /* .product_page{
         padding-top: 80px;
     }
+  }  */
 
-  }
-  .carousel *{
-      direction:ltr;
-  }
 
   
-  /* On screens that are 600px or less, set the background color to olive
+  /* On screens that are 600px or less, set the background color to olive */
   @media screen and (max-width: 600px) {
     .width30 .width70 {
         width: 100%;
        }
+           .right , .left{
+        float: none;
+    }
+    .footer{
+        clear: none;
+    }
        
-  } */
+  }

@@ -12,10 +12,12 @@ import Product from "./components/Products/Product";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/admin/Login";
+ import{ emailjs, init } from 'emailjs-com';
 // import admin from "./components/admin/Admin";
 
 function App() {
-  return (
+  return (<>
+
     <div>
       <HashRouter>
         <Header />
@@ -36,6 +38,7 @@ function App() {
       </HashRouter>
       <Footer />
     </div>
+    </>
   );
 }
 

@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
     "bcryptjs": "^2.4.3",
     "concurrently": "^6.0.2",
     "cors": "^2.8.5",
+    "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "heroku": "^7.53.0",
     "jsonwebtoken": "^8.5.1",

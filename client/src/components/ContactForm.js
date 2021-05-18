@@ -1,27 +1,75 @@
-
 import React from "react";
+import { useState } from 'react';
+ import emailjs from 'emailjs-com'; 
+import{ init } from 'emailjs-com';
+import { send } from 'emailjs-com';
+init("user_JEZO1HoxX0qv5PhTYQDdb");
+
+let userID = 'user_JEZO1HoxX0qv5PhTYQDdb'
+
+
+// init("user_JEZO1HoxX0qv5PhTYQDdb");
+
+
 
 const ContactForm = () => {
-  // const [status, setStatus] = useState("Submit");
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setStatus("Sending...");
-  //   const { name, email, message } = e.target.elements;
-  //   let details = {
-  //     name: name.value,
-  //     email: email.value,
-  //     message: message.value,
-  //   };
+  const [toSend, sendForm] = useState({
+    from_name: '',
+    to_name: '',
+    message: '',
+    reply_to: '',
+  });
 
-  // };
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bgb0wad', 'template_2828nkq', e.target, 'user_JEZO1HoxX0qv5PhTYQDdb')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+  };
+
+  const handleChange = (e) => {
+    sendForm({ ...toSend, [e.target.name]: e.target.value });
+  };
+
   return (
-    <form className="flex">
-        <input type="text" id="name" placeholder="השם שלך" required />
-        <input type="email" id="email" placeholder="כתובת המייל שלך" required />
-        <input type="phone" id="phone" placeholder="מספר הפלאפון שלך" required />
-        <textarea id="message" placeholder="מה שרצית לשאול או להגיד לנו"  />
-      <button type="submit">דברו איתי</button>
-    </form>
+    <>
+<form onSubmit={onSubmit}>
+  <input
+    type='text'
+    name='from_name'
+    placeholder='from name'
+    value={toSend.from_name}
+    onChange={handleChange}
+  />
+  <input
+    type='text'
+    name='to_name'
+    placeholder='to name'
+    value={toSend.to_name}
+    onChange={handleChange}
+  />
+  <input
+    type='text'
+    name='message'
+    placeholder='Your message'
+    value={toSend.message}
+    onChange={handleChange}
+  />
+  <input
+    type='text'
+    name='reply_to'
+    placeholder='Your email'
+    value={toSend.reply_to}
+    onChange={handleChange}
+  />
+  <button type='submit'>Submit</button>
+</form>
+    </>
   );
 };
 
