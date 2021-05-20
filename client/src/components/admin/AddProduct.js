@@ -53,10 +53,10 @@ function AddProduct() {
         <input type="number" placeholder="מחיר" name="price" />
         <input type="text" placeholder="תיאור המוצר" name="describe" required/>
         <label htmlFor="primarying">תמונה ראשית</label>
-        <input type="file" placeholder="תמונה ראשית" name="primarying" />
+        <input type="text" placeholder="תמונה ראשית" name="primarying" />
         <label htmlFor="thumbimg">תמונה נוספות</label>
-        <input type="file" placeholder="תמונות נוספות" name="thumbimg" />
-        <label htmlFor="video">סרטון</label>
+        <input type="text" placeholder="תמונות נוספות" name="thumbimg" />
+        <label htmlFor="text">סרטון</label>
         <input type="text" placeholder="סרטון" name="video" />       
         <input type="text" placeholder="משפט כללי על הנקה" name="breastfeedsentence" />
         <input type="text" placeholder="מה זה -שם המוצר-?" name="question" />

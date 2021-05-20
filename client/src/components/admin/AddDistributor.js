@@ -12,7 +12,7 @@ function AddDistributor() {
     const area = e.target.area.value;
     const phone = e.target.phone.value;
 
-    console.log(fullname, title);
+    console.log(fullname, title, area);
 
     const editedData = {
       name: fullname,
@@ -40,12 +40,12 @@ function AddDistributor() {
 
   return (
     <form onSubmit={onSubmit}>
-      הוספת מפיצה חדשה
+     <h3> הוספת מפיצה חדשה </h3>
       <input type="text" placeholder="שם המפיצה" name="fullname" required />
       <input type="text" placeholder="תפקיד מפיצה" name="title" />
       <input type="text" placeholder="עיר/ איזור" name="city" required />
       <input type="text" placeholder="מספר פלאפון" name="phone" required />
-      <select>
+      <select name="area">
         <option value="0">בחרי איזור</option>
         <option value="north">צפון</option>
         <option value="center">מרכז</option>

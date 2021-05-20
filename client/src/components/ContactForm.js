@@ -77,7 +77,7 @@ const ContactForm = () => {
     value={toSend.reply_to}
     onChange={handleChange}
   />
-  <button type='submit'>דברו איתי</button>
+  <button type="submit"/>
 </form>
     </>
   );
