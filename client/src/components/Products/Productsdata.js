@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-// import axios from "axios";
 import api from "../../API/api"
 import { Link } from "react-router-dom";
-// import AddProduct from "../admin/AddProduct";
 
 const Productsdata = () => {
   const [term, setTerm] = useState([]);
@@ -11,7 +9,7 @@ const Productsdata = () => {
     const search = async () => {
       const { data } = await api.get("products");
 
-      // console.log(data)
+       console.log(data)
 
       setTerm(
         data.map((product) => {

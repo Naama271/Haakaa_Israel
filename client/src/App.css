@@ -11,6 +11,7 @@
   box-sizing: border-box;
   direction: rtl;
   font-family: 'Assistant', sans-serif;
+  scroll-behavior: smooth;
 }
 
 

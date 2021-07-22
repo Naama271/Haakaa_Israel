@@ -27,8 +27,8 @@ function App() {
         </Helmet>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/distributors" component={Distributors} />
+          <Route exact path="/#about" component={About} />
+          <Route exact path="/#distributors" component={Distributors} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/products" component={Products} />
           <Route exact path="/products/:id" component={Product} />
